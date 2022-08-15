@@ -1,3 +1,4 @@
+[![codecov](https://codecov.io/gh/skineur/country-phonenumber/branch/master/graph/badge.svg?token=IHUDRALKHN)](https://codecov.io/gh/skineur/country-phonenumber)
 # Country phone number parser
 
 this library uses `awesome-phonenumber` and allows to get the country name after parsing the phone number.
