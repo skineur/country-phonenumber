@@ -1,0 +1,42 @@
+{
+  "name": "country-phonenumber",
+  "version": "0.1.0",
+  "description": "Awesome phone numbers with country name and carrier",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest ./tests --coverage=true"
+  },
+  "files": [
+    "data",
+    "lib",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skineur/country-phone-numbers.git"
+  },
+  "keywords": [
+    "phone-number",
+    "libphonenumber",
+    "phone",
+    "number",
+    "awesome-phonenumber"
+  ],
+  "author": "Achille NJOMO <skineur@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skineur/country-phone-numbers/issues"
+  },
+  "homepage": "https://github.com/skineur/country-phone-numbers#readme",
+  "devDependencies": {
+    "@types/jest": "^28.1.6",
+    "jest": "^28.1.3",
+    "ts-jest": "^28.0.7",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "awesome-phonenumber": "^3.3.0"
+  }
+}
