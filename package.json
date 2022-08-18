@@ -1,6 +1,6 @@
 {
   "name": "country-phonenumber",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Awesome phone numbers with country name and carrier",
   "main": "lib/index.js",
   "scripts": {
