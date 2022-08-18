@@ -42,4 +42,25 @@ JSON.stringify( pn, null, 4 ); // -> This:
 // }
 ```
 
-`getRegionName` returns the country name
+The method `getRegionName` returns the country name.
+
+
+## Get object country name and phone prefix by country code
+
+``` javascript
+import { getCountryByCode } from "country-phonenumber";
+
+console.log(getCountryByCode('FR')); 
+
+// { name: "France", phone: 33 }
+```
+
+## Get object country name and code by phone prefix
+
+``` javascript
+import { getCountryByPhone } from "country-phonenumber";
+
+console.log(getCountryByPhone(237)); 
+
+// { name: "Cameroon", code: "CM" }
+```

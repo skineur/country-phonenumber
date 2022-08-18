@@ -4,7 +4,9 @@ import {
   getRegionCodeForCountryCode,
   getSupportedCallingCodes,
   getSupportedRegionCodes,
-  getExample
+  getExample,
+  getCountryByPhone,
+  getCountryByCode
 } from "./../src/index";
 
 describe("general unit test", (): void => {
@@ -52,4 +54,9 @@ describe("general unit test", (): void => {
     const actual = getExample('CM').getNumber();
     expect(actual).toMatch(/^\+237/)
   })
+
+  test('should have exports', () => {
+    expect(typeof getCountryByCode).toBe('function');
+    expect(typeof getCountryByPhone).toBe('function');
+  });
 });

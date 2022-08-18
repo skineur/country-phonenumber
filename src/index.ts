@@ -7,7 +7,7 @@ import PhoneNumber, {
   getSupportedRegionCodes,
   getExample,
 } from "awesome-phonenumber";
-import { getCountryByCode } from "./country";
+import { getCountryByCode, getCountryByPhone } from "./country";
 
 declare module "awesome-phonenumber" {
   interface PhoneNumber {
@@ -38,4 +38,6 @@ export {
   getSupportedCallingCodes,
   getSupportedRegionCodes,
   getExample,
+  getCountryByCode,
+  getCountryByPhone
 };
