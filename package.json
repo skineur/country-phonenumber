@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skineur/country-phone-numbers.git"
+    "url": "git+https://github.com/skineur/country-phonenumber.git"
   },
   "keywords": [
     "phone-number",
@@ -27,9 +27,9 @@
   "author": "Achille NJOMO <skineur@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/skineur/country-phone-numbers/issues"
+    "url": "https://github.com/skineur/country-phonenumber/issues"
   },
-  "homepage": "https://github.com/skineur/country-phone-numbers#readme",
+  "homepage": "https://github.com/skineur/country-phonenumber#readme",
   "devDependencies": {
     "@types/jest": "^28.1.6",
     "jest": "^28.1.3",
